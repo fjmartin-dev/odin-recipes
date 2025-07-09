@@ -1,0 +1,75 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:antiquewhite;
+    margin:0;
+}
+body.inicio{
+    height:100vh;
+    margin:0;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+}
+li{
+    margin:15px 0px;
+    padding:0;
+}
+figure{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+section+section{
+    padding: 20px 0px;
+}
+.recipes-list{
+    border:2px dashed darkgoldenrod;
+    border-radius: 35px;
+    padding:35px;
+    background-color: beige;
+    text-align: center;
+    box-shadow: 6px 6px 5px rgba(00,00,00,35%);
+}
+.recipes-list ul{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding:0;
+}
+.recipes-list li{
+    background-color:blanchedalmond;
+    padding:5px 15px;
+    box-shadow: 3px 3px 3px rgba(00,00,00,30%);
+}
+.recipe{
+    background-color:beige;
+    border:2px dotted lightpink;
+    border-radius: 35px;
+    padding: 0px 25px;;
+    max-width: 700px;
+    margin:auto;
+}
+.link-home{
+    display:flex;
+    justify-content: center;
+    padding:0;
+    border:2px solid;
+    margin-bottom:25px;
+    background-color: aqua;
+    font-weight: bolder;
+    font-style:italic;
+}
+.link-home:hover {
+  background-color: #00d4ff;
+}
